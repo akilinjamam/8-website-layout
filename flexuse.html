@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use of flex</title>
+
+    <script src="https://kit.fontawesome.com/1c1bf8a2aa.js" crossorigin="anonymous"></script>
+
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .login-form input,
+        button {
+            margin-top: 10px;
+            font-size: 1.3em;
+            border: 1px solid lightgray;
+            border-radius: 15px;
+            padding-left: 20px;
+        }
+
+        .login-form button,
+        button a {
+            background-color: #faca48;
+            color: lightyellow;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: black;
+            font-size: 1.5em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">orders</a>
+                <a href="">About Us</a>
+            </span>
+            <span>
+                <a href=""><i class="far fa-id-badge"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+
+
+
+    </header>
+    <section class="login-container">
+        <form action="
+        " class="login-form">
+            <h1
+                style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; text-align: center;">
+                Login</h1>
+            <input type="email" name="email" id="" placeholder="type your email">
+            <input type="password" name="password" id="" placeholder="your password">
+            <button type="submit"> <a href="">Submit</a> </button>
+
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            height: 250px;
+            width: 300px;
+            border: 1px solid goldenrod;
+            border-radius: 15px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        .photo-detailed {
+
+            position: absolute;
+            width: 300px;
+            top: 0;
+            display: none;
+        }
+
+        .photo-detailed h3 {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .photo-detailed p {
+            color: white;
+            padding: 10px;
+        }
+
+        .photo-album {
+            border-bottom: 15px;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 15px;
+
+        }
+
+        .photo-frame:hover .photo-detailed {
+            background-color: rgba(252, 201, 71, 0.37);
+            display: block;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5);
+            /*skew(30deg)*/
+            transition: transform 1s ease-in-out;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Awesome photo of tiger mama</h1>
+    <section>
+        <h3>Photo album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/unnamed.png" alt="">
+                </div>
+                <div class="photo-detailed">
+                    <h3>heading</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis molestiae quos ducimus iure
+                        accusamus? Sit recusandae accusamus, harum itaque quos voluptatum iusto quis ea, asperiores
+                        illum delectus, aspernatur commodi. Minus eos modi atque natus sapiente facilis harum pariatur
+                        qui optio, numquam
+                        obcaecati?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
